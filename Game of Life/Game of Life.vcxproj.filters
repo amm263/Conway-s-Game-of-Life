@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files (x86)\boost\boost_1_47\lib\boost_thread-vc100-mt-1_47.dll" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files (x86)\boost\boost_1_47\lib\boost_thread-vc100-mt-gd-1_47.dll" />
+    <None Include="..\lib\SDL.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game of Life.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\boost\boost_1_47\lib\libboost_thread-vc100-mt-s-1_47.lib" />
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\boost\boost_1_47\lib\libboost_thread-vc100-mt-sgd-1_47.lib" />
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\boost\boost_1_47\lib\libboost_thread-vc100-mt-1_47.lib" />
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\boost\boost_1_47\lib\libboost_thread-vc100-mt-gd-1_47.lib" />
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\boost\boost_1_47\lib\boost_thread-vc100-mt-1_47.lib" />
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\boost\boost_1_47\lib\boost_thread-vc100-mt-gd-1_47.lib" />
+    <Library Include="..\lib\SDL.lib" />
+    <Library Include="..\lib\SDL_image.lib" />
+    <Library Include="..\lib\SDL_mixer.lib" />
+    <Library Include="..\lib\SDL_ttf.lib" />
+    <Library Include="..\lib\SDLmain.lib" />
+  </ItemGroup>
+</Project>
